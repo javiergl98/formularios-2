@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 2</title>
+</head>
+<body>
+    <h1>Tipos de inputs</h1>
+    <fieldset>
+        <form action="mkfdgmerwnf.php">
+        <legend>Datos personales</legend>
+    <p>
+        <label for="nom">nombre</label>
+        <input type="text" maxlength="6"
+        name="nombre"
+        id="nom">
+    </p>
+    <p>
+        <label for="contra">contraseña</label>
+        <input type="password" 
+        maxlength="6"
+        name="nombre"
+        id="contra">
+    </p>
+    <p>
+        <label for="hombre">hombre</label>
+        <input type="radio" 
+       value="H"
+        name="genero"
+        id="hombre">
+        <label for="mujer">mujer</label>
+        <input type="radio" 
+       value="M"
+        name="genero"
+        id="mujer">
+
+        <p>
+        
+            <label for="fum">fumador</label>
+            <input type="checkbox"
+            id="fum"
+            name="fuma">
+        </p>
+
+    </p>
+    <p>
+        Provincia:
+        <select name="provincia" id="provincia">
+            <option value="ciudad rela">ciudad real</option>
+            <option value="albacete">albacete</option>
+            <option value="guadalajara">guadalajara</option>
+            <option value="cuenca">cuenca</option>
+            <option value="toledo">toledo</option>
+            <option value="jaen">jaen</option>
+        </select>
+    </p>
+
+    <p>
+        Color:
+        <label for="color">
+            color
+        </label>
+        <input type="color" id="color">
+    </p>
+    <p>
+       fecha nacimiento:
+        <label for="date">
+            color
+        </label>
+        <input type="date" id="date">
+    </p>
+    <p>
+        edad:
+         <label for="number">
+             Edad
+         </label>
+         <input type="number" id="number">
+     </p>
+     <p>
+        email:
+         <label for="email">
+             email
+         </label>
+         <input type="email" id="email">
+     </p>
+     <p>
+        Sube tu CV:
+         <label for="cv">
+             Edad
+         </label>
+         <input type="file" id="cv">
+     </p>
+    <p>
+        <textarea name="obs" id="obs" cols="10" rows="7"></textarea>
+        Escribe tus observaciones...
+            
+        </textarea>
+    </p>
+    <!--botones de envío y reset-->
+    <p>
+        <input type="submit">
+    <input type="reset">
+    </p>
+</form>
+</fieldset>
+
+    
+</body>
+</html>
